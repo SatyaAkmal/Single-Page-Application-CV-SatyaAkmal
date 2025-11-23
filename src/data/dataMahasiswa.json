@@ -1,0 +1,31 @@
+{
+  "nama": "Satya Akmal Dzaki Muammar",
+  "nim": "L200230164",
+  "prodi": "Teknik Informatika",
+  "angkatan": "2023",
+  "email": "sulthandzulfadly37@gmail.com",
+  "telepon": "0812-2892-8194",
+  "foto": "/foto-profil.jpg",
+  "bio": "Mahasiswa yang tertarik akan teknologi dan financial investment.",
+  "skills": [
+    { "nama": "Financial Investment", "level": "Advanced", "percent": 90 },
+    { "nama": "JavaScript", "level": "Advanced", "percent": 80 },
+    { "nama": "React", "level": "Intermediate", "percent": 70 }
+  ],
+  "experiences": [
+    {
+      "posisi": "Peserta",
+      "perusahaan": "Universitas Diponegoro",
+      "mulai": "Jun 2024",
+      "selesai": "Aug 2024",
+      "deskripsi": "Mengikuti seminar sekolah pasar modal."
+    },
+    {
+      "posisi": "Peserta",
+      "perusahaan": "Universitas Muhammadiyah Surakarta",
+      "mulai": "16 November",
+      "selesai": "16 November",
+      "deskripsi": "Mengikuti sekolah legislatif"
+    }
+  ]
+}
