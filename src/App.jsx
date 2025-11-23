@@ -12,7 +12,7 @@ export default function App() {
       <header className="w-full bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
         <div className="w-full px-6 py-4">
           <h1 className="text-xl md:text-2xl font-semibold text-indigo-700 tracking-wide">
-            My CV
+            PORTOFOLIO
           </h1>
         </div>
       </header>
