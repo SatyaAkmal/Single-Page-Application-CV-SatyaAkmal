@@ -15,18 +15,18 @@
   "skills": [
     {
       "name": "ReactJS",
-      "level": "Advanced",
-      "years": "2 years",
-      "percentage": 90,
+      "level": "Beginner",
+      "years": "1 years",
+      "percentage": 40,
       "tag": "Main",
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
 
     },
     {
       "name": "Tailwind CSS",
-      "level": "Intermediate",
+      "level": "Beginner",
       "years": "1 year",
-      "percentage": 75,
+      "percentage": 40,
       "tag": "Main",
       "icon_url":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
 
@@ -35,7 +35,7 @@
       "name": "Django REST Framework",
       "level": "Intermediate",
       "years": "1 year",
-      "percentage": 65,
+      "percentage": 50,
       "tag": "Main",
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
     }
