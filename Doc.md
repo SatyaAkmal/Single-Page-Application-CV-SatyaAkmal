@@ -68,3 +68,5 @@ Aplikasi ini dibangun menggunakan:
 5. ![Bukti Email Masuk](public/example5.png)
 
 ## Deployment Link
+
+1. open https://spa-satyaakmal.netlify.app/
