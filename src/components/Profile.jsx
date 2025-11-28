@@ -7,7 +7,7 @@ const Profile = ({ data }) => {
         
         <img
           src={data.photo}
-          alt="profile"
+          alt="foto-profil"
           className="w-32 h-32 rounded-xl object-cover shadow-lg border-4 border-white/30"
         />
 
