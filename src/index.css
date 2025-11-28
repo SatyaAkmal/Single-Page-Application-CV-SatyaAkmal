@@ -3,7 +3,6 @@
 html {
   scroll-behavior: smooth;
 }
-
 @layer base{
   body{
     font-family: "Poppins", sans-serif;

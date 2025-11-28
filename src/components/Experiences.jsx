@@ -1,5 +1,6 @@
 import React from "react";
 
+//BAGIAN EXPERIENCES//
 const badgeColor = {
   project: "bg-green-100 text-green-700",
   internship: "bg-blue-100 text-blue-700",

@@ -1,5 +1,6 @@
 import React from "react";
 
+//SKILLS//
 const Skills = ({ skills }) => {
   return (
     <div className="bg-white p-8 rounded-2xl shadow-lg mt-10">
