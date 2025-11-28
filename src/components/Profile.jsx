@@ -1,6 +1,5 @@
 import React from "react";
 
-//PROFILE//
 const Profile = ({ data }) => {
   return (
     <div className="bg-gradient-to-r from-blue-600 to-sky-400 p-10 rounded-2xl shadow-xl text-white w-full">

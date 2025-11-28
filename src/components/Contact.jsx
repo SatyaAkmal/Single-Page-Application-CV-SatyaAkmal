@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
-//FORM KONTKAK//
 const Contact = () => {
   const form = useRef();
   const [loading, setLoading] = useState(false);
