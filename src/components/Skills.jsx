@@ -1,56 +1,58 @@
 import React from "react";
 
-export default function Skills({ data }) {
+const Skills = ({ skills }) => {
   return (
-    <section className="w-full p-6 bg-white rounded-2xl shadow-md hover:shadow-lg transition">
-      <h2 className="text-2xl font-semibold text-gray-800 mb-6">
+    <div className="bg-white p-8 rounded-2xl shadow-lg mt-10">
+      <h2 className="text-xl font-semibold mb-6 text-gray-700">
         Skills & Expertise
       </h2>
 
-      <div className="grid md:grid-cols-2 gap-6">
-        {data.map((s, i) => (
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {skills.map((skill, index) => (
           <div
-            key={i}
-            className="p-5 border rounded-xl bg-white shadow-sm hover:shadow-md transition"
+            key={index}
+            className="p-6 bg-gray-50 rounded-xl shadow-sm border flex flex-col gap-4"
           >
-            {/* Nama Skill + Badge */}
-            <div className="flex items-center justify-between mb-3">
-              <div className="flex items-center gap-2">
-                {s.icon && (
-                  <img
-                    src={s.icon}
-                    alt={s.nama}
-                    className="w-6 h-6 object-contain"
-                  />
-                )}
-                <h3 className="font-semibold text-gray-900 text-lg">
-                  {s.nama}
+            {/* HEADER NAME + TAG */}
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-3">
+
+                {/* ICON */}
+                <img
+                  src={skill.icon_url}
+                  alt={skill.name}
+                  className="w-10 h-10 object-contain"
+                />
+
+                <h3 className="text-lg font-semibold text-gray-800">
+                  {skill.name}
                 </h3>
               </div>
 
-              {/* Badge Level */}
-              <span className="px-3 py-1 text-xs font-medium bg-blue-100 text-blue-600 rounded-full">
-                {s.level}
-              </span>
+              {skill.tag && skill.tag !== "" && (
+                <span className="text-xs bg-blue-100 text-blue-700 px-3 py-1 rounded-full">
+                  {skill.tag}
+                </span>
+              )}
             </div>
 
-            {/* Lama pengalaman */}
-            <p className="text-sm text-gray-600 mb-3">{s.experience}</p>
+            {/* LEVEL + YEARS */}
+            <p className="text-sm text-gray-500 -mt-2">
+              {skill.level} · {skill.years}
+            </p>
 
-            {/* Progress bar */}
-            <div className="w-full bg-gray-200 h-2 rounded-full overflow-hidden">
+            {/* PROGRESS BAR */}
+            <div className="w-full bg-gray-300 rounded-full h-2 mt-1">
               <div
-                className="h-2 bg-blue-500 rounded-full transition-all duration-500"
-                style={{ width: `${s.percent}%` }}
-              />
-            </div>
-
-            <div className="text-right text-sm text-gray-600 mt-1">
-              {s.percent}%
+                className="bg-blue-500 h-2 rounded-full"
+                style={{ width: `${skill.percentage}%` }}
+              ></div>
             </div>
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
-}
+};
+
+export default Skills;

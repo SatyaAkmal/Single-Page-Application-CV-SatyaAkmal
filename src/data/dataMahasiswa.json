@@ -1,31 +1,73 @@
 {
-  "nama": "Satya Akmal Dzaki Muammar",
-  "nim": "L200230164",
-  "prodi": "Teknik Informatika",
-  "angkatan": "2023",
-  "email": "sulthandzulfadly37@gmail.com",
-  "telepon": "0812-2892-8194",
-  "foto": "/foto-profil.jpg",
-  "bio": "Mahasiswa yang tertarik akan teknologi dan financial investment.",
+  "profile": {
+    "name": "Satya Akmal Dzaki Muammar",
+    "title": "Mahasiswa Teknik Informatika UMS",
+    "description": "Mahasiswa dengan minat pada Teknologi modern dan Financial Invesment.",
+    "nim": "L200230164",
+    "major": "Teknik Informatika",
+    "angkatan": "2023",
+    "location": "Indonesia",
+    "views": 120,
+    "photo":"/public/foto-profil.jpg",
+    "portfolio": "https://satyaakmal.github.io/Portofolio-Website/"
+  },
+
   "skills": [
-    { "nama": "Financial Investment", "level": "Advanced", "percent": 90 },
-    { "nama": "JavaScript", "level": "Advanced", "percent": 80 },
-    { "nama": "React", "level": "Intermediate", "percent": 70 }
-  ],
-  "experiences": [
     {
-      "posisi": "Peserta",
-      "perusahaan": "Universitas Diponegoro",
-      "mulai": "Jun 2024",
-      "selesai": "Aug 2024",
-      "deskripsi": "Mengikuti seminar sekolah pasar modal."
+      "name": "ReactJS",
+      "level": "Advanced",
+      "years": "2 years",
+      "percentage": 90,
+      "tag": "Main",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+
     },
     {
-      "posisi": "Peserta",
-      "perusahaan": "Universitas Muhammadiyah Surakarta",
-      "mulai": "16 November",
-      "selesai": "16 November",
-      "deskripsi": "Mengikuti sekolah legislatif"
+      "name": "Tailwind CSS",
+      "level": "Intermediate",
+      "years": "1 year",
+      "percentage": 75,
+      "tag": "Main",
+      "icon_url":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "Intermediate",
+      "years": "1 year",
+      "percentage": 65,
+      "tag": "Main",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+    }
+  ],
+
+  "experiences": [
+    {
+      "title": "Peserta Sekolah Pasar Modal 2024",
+      "company": "KSPM Universitas Diponegoro",
+      "start": "Oct 2024",
+      "end": "Nov 2024",
+      "type": "Event",
+      "description": "Mengikuti Sekolah Pasar Modal di Universitas Diponegoro",
+      "tags": ["Investasi", "Financial Invesment"]
+    },
+    {
+      "title": "Peserta Sekolah Legislatif 2025",
+      "company": "DPM Universitas Muhammadiyah Surakarta",
+      "start": "16 Nov 2025",
+      "end": "17 Nov 2025",
+      "type": "Event",
+      "description": "Mengikuti Sekolah Legislatif 2025 sebagai peserta",
+      "tags": ["Leadership", "Legislatif"]
+    },
+    {
+      "title": "Bendahara Tim Futsal FKI UMS",
+      "company": "UKM Informatika",
+      "start": "Jan 2024",
+      "end": "Sampai Sekarang",
+      "type": "organization",
+      "description": "Mengelola keuangan Tim Futsal FKI UMS.",
+      "tags": ["Leadership", "Responsibility"]
     }
   ]
 }
